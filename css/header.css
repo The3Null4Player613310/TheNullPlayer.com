@@ -8,3 +8,8 @@
   color: white;
   background-color: black;
 }
+
+img .logo {
+  width:24px;
+  height:24px;
+}
