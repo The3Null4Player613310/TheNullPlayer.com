@@ -20,4 +20,4 @@ function hit()
 }
 
 hit();
-document.addEventListener("DOMContentLoaded", fetchCount);
+document.body.addEventListener("load", fetchCount);
