@@ -2,7 +2,7 @@ const token="jwCrlnPQNYn1yQSSZBdNrmVmaSVbvsMM";
 
 function fetchCount()
 {
-  getElementById("counter").innerText = "314";
+  document.getElementById("counter").innerText = "314";
 }
 
 function hit()
@@ -20,4 +20,4 @@ function hit()
 }
 
 hit();
-object.addEventListener("load", fetchCount);
+document.addEventListener("load", fetchCount);
