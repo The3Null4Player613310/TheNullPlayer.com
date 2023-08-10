@@ -20,4 +20,5 @@ function hit()
 }
 
 //hit();
-document.body.addEventListener("load", fetchCount);
+fetchCount();
+//document.body.addEventListener("load", fetchCount);
