@@ -2,13 +2,14 @@ const token="jwCrlnPQNYn1yQSSZBdNrmVmaSVbvsMM";
 
 function fetchCount()
 {
+  getElementById("counter").innerText = "314";
 }
 
 function hit()
 {
   function u()
   {
-    getElementById("counter").innerText = "314";
+    
   }
   
   const query = new XMLHttpRequest();
@@ -18,3 +19,4 @@ function hit()
 }
 
 hit();
+object.addEventListener("load", fetchCount);
