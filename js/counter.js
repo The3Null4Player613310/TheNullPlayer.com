@@ -19,5 +19,5 @@ function hit()
   query.send();
 }
 
-hit();
+//hit();
 document.body.addEventListener("load", fetchCount);
