@@ -1,10 +1,5 @@
 const token="jwCrlnPQNYn1yQSSZBdNrmVmaSVbvsMM";
 
-function fetchCount()
-{
-  document.getElementById("counter").innerText = "314";
-}
-
 function hit()
 {
   function u()
@@ -17,6 +12,11 @@ function hit()
   query.setRequestHeader("Authorization", token)
   query.open("GET", "https://api.baserow.io");
   query.send();
+}
+
+function counter()
+{
+  document.getElementById("counter").innerText = "314";
 }
 
 hit();
