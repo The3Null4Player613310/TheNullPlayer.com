@@ -9,14 +9,14 @@
   background-color: black;
 }
 
-#logo {
+#header-logo {
   width:48px;
   height:48px;
   padding-left: 12px;
   padding-right: 12px;
 }
 
-#menu-button {
+#header-menu {
   float: right;
   padding-left: 12px;
   padding-right: 12px;
