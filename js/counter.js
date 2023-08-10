@@ -19,5 +19,5 @@ function counter()
   document.getElementById("counter").innerText = "314";
 }
 
-hit();
+//hit();
 //document.body.addEventListener("load", fetchCount);
