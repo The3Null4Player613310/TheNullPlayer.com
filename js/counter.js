@@ -7,7 +7,7 @@ function hit()
 {
   function s(r)
   {
-    alert(r);
+    alert(r.count);
   }
   
   $.ajax({
