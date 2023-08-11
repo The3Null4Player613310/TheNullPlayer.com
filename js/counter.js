@@ -22,7 +22,8 @@ function hit()
     $.ajax({
       datatype: "json",
       url: atob(domain) + "database/rows/table/" + t_id + "/" + s_id + "/",
-      headers: { authorization:"Token " + atob(token) },
+      headers: { authorization:"Token " + atob(token),
+                 content-type:"application/json"},
       data: d,
       success: u
     });
