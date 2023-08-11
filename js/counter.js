@@ -9,6 +9,8 @@ function hit()
   {
     var c = Number(r.count)+1;
 
+    document.getElementById("counter").innerText = c;
+    
     function u()
     {
       
@@ -40,8 +42,6 @@ function hit()
 
 function counter()
 {
-  document.getElementById("counter").innerText = "314";
+  hit();
 }
-
-hit();
 //document.body.addEventListener("load", fetchCount);
