@@ -1,5 +1,7 @@
 const token="andDcmxuUFFOWW4xeVFTU1pCZE5ybVZtYVNWYnZzTU0=";
 const domain="aHR0cHM6Ly9hcGkuYmFzZXJvdy5pby9hcGkv";
+const id = 1;
+
 
 function hit()
 {
@@ -10,7 +12,7 @@ function hit()
   
   $.ajax({
     dataType: "json",
-    url: atob(domain),
+    url: atob(domain) + "database/rows/table/187609/" + id + "/",
     headers: { Authentication:atob(token) },
     //data: data,
     success: s
