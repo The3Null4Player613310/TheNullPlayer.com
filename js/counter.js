@@ -14,7 +14,7 @@ function hit()
     dataType: "json",
     url:  atob(domain) + "database/rows/table/" + t_id + "/" + s_id + "/",
     headers: { authorization:"Token " + atob(token) },
-    //data: data,
+    data: { "user_field_names":"true" },
     success: s
   });
 }
