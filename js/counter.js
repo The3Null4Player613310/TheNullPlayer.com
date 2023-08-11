@@ -12,7 +12,7 @@ function hit()
   
   $.ajax({
     dataType: "json",
-    url:  atob(domain) + "database/rows/table" + t_id + "/" + s_id + "/",
+    url:  atob(domain) + "database/rows/table/" + t_id + "/" + s_id + "/",
     headers: { authorization:"Token " + atob(token) },
     //data: data,
     success: s
