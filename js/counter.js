@@ -1,5 +1,5 @@
 const token="andDcmxuUFFOWW4xeVFTU1pCZE5ybVZtYVNWYnZzTU0=";
-const domain="https://api.baserow.io/api";
+const domain="https://api.baserow.io/api/";
 const t_id="187609"
 const s_id="1";
 
