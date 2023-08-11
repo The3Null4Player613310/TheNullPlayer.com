@@ -1,4 +1,5 @@
 const token="jwCrlnPQNYn1yQSSZBdNrmVmaSVbvsMM";
+alert(btoa(token));
 
 function hit()
 {
