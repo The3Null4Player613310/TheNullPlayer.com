@@ -1,6 +1,5 @@
-const token="jwCrlnPQNYn1yQSSZBdNrmVmaSVbvsMM";
-alert(btoa(token));
-
+const token="andDcmxuUFFOWW4xeVFTU1pCZE5ybVZtYVNWYnZzTU0=";
+alert(atob(token));
 function hit()
 {
   function s(r)
@@ -11,7 +10,7 @@ function hit()
   $.ajax({
     dataType: "json",
     url: url,
-    headers: { Authentication:token },
+    headers: { Authentication:atob(token) },
     data: data,
     success: s
   });
