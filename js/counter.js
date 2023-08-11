@@ -1,4 +1,6 @@
 const token="andDcmxuUFFOWW4xeVFTU1pCZE5ybVZtYVNWYnZzTU0=";
+const domain="https://api.baserow.io/api/"
+alert(btoa(domain));
 alert(atob(token));
 function hit()
 {
