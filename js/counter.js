@@ -21,7 +21,7 @@ function hit()
     d.website = r.website;
 
     $.ajax({
-      type: "POST",
+      type: "PATCH",
       datatype: "json",
       url: atob(domain) + "database/rows/table/" + t_id + "/" + s_id + "/?user_field_names=true",
       headers: { "authorization":"Token " + atob(token),
