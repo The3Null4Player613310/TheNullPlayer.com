@@ -19,11 +19,11 @@ function hit()
     d = {};
     d.count = ""+c;
     d.website = r.website;
-    d.user_field_names = "true"
 
     $.ajax({
+      type: "GET"
       datatype: "json",
-      url: atob(domain) + "database/rows/table/" + t_id + "/" + s_id + "/",
+      url: atob(domain) + "database/rows/table/" + t_id + "/" + s_id + "/?user_field_names=true",
       headers: { "authorization":"Token " + atob(token),
                  "content-type":"application/json" },
       data: d,
