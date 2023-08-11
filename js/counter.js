@@ -1,7 +1,6 @@
 const token="andDcmxuUFFOWW4xeVFTU1pCZE5ybVZtYVNWYnZzTU0=";
-const domain="https://api.baserow.io/api/"
-alert(btoa(domain));
-alert(atob(token));
+const domain="aHR0cHM6Ly9hcGkuYmFzZXJvdy5pby9hcGkv";
+
 function hit()
 {
   function s(r)
@@ -11,7 +10,7 @@ function hit()
   
   $.ajax({
     dataType: "json",
-    url: url,
+    url: atob(domain),
     headers: { Authentication:atob(token) },
     data: data,
     success: s
