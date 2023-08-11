@@ -1,5 +1,5 @@
 const token="andDcmxuUFFOWW4xeVFTU1pCZE5ybVZtYVNWYnZzTU0=";
-const domain="https://api.baserow.io/";
+const domain="https://api.baserow.io/api";
 const t_id="187609"
 const s_id="1";
 
@@ -17,7 +17,7 @@ function hit()
   $.ajax({
     dataType: "json",
     url:  domain,
-    headers: { Authentication:atob(token) },
+    headers: { Authentication:"Token " + atob(token) },
     //data: data,
     success: s
   });
