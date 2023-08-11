@@ -2,16 +2,18 @@ const token="jwCrlnPQNYn1yQSSZBdNrmVmaSVbvsMM";
 
 function hit()
 {
-  function u()
+  function s(r)
   {
-    
+    alert(r);
   }
   
-  const query = new XMLHttpRequest();
-  query.addEventListener("load", u);
-  query.setRequestHeader("Authorization", token)
-  query.open("GET", "https://api.baserow.io");
-  query.send();
+  $.ajax({
+    dataType: "json",
+    url: url,
+    headers: { Authentication:token }
+    data: data,
+    success: s
+  });
 }
 
 function counter()
@@ -19,5 +21,5 @@ function counter()
   document.getElementById("counter").innerText = "314";
 }
 
-//hit();
+hit();
 //document.body.addEventListener("load", fetchCount);
