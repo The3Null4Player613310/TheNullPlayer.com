@@ -17,7 +17,7 @@ function hit()
   $.ajax({
     dataType: "json",
     url:  domain,
-    headers: { Authentication:"Token " + atob(token) },
+    headers: { authorization:"Token " + atob(token) },
     //data: data,
     success: s
   });
