@@ -11,7 +11,7 @@ function hit()
   $.ajax({
     dataType: "json",
     url: url,
-    headers: { Authentication:token }
+    headers: { Authentication:token },
     data: data,
     success: s
   });
