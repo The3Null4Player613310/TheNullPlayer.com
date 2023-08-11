@@ -7,7 +7,25 @@ function hit()
 {
   function s(r)
   {
-    alert(r.count);
+    var c = Number(r.count)+1;
+
+    function u()
+    {
+      
+    };
+
+    d = {};
+    d.count = ""+c;
+    d.website = r.website;
+    d.user_field_names = "true"
+
+    $.ajax({
+      datatype: "json",
+      url: atob(domain) + "database/rows/table/" + t_id + "/" + s_id + "/",
+      headers: { authorization:"Token " + atob(token) },
+      data: d,
+      success: u
+    });
   }
   
   $.ajax({
