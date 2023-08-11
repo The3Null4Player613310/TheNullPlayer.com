@@ -1,9 +1,7 @@
 const token="andDcmxuUFFOWW4xeVFTU1pCZE5ybVZtYVNWYnZzTU0=";
-const domain="https://api.baserow.io/api/";
+const domain="aHR0cHM6Ly9hcGkuYmFzZXJvdy5pby9hcGkv";
 const t_id="187609";
 const s_id="1";
-
-alert(btoa(domain));
 
 function hit()
 {
@@ -14,7 +12,7 @@ function hit()
   
   $.ajax({
     dataType: "json",
-    url:  domain + "database/rows/table" + t_id + "/" + s_id + "/",
+    url:  atob(domain) + "database/rows/table" + t_id + "/" + s_id + "/",
     headers: { authorization:"Token " + atob(token) },
     //data: data,
     success: s
