@@ -6,4 +6,8 @@
   left: 0px;
   right: 0px;
   text-align: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  color: white;
+  background-color: black;
 }
