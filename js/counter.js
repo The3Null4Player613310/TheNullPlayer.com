@@ -12,7 +12,7 @@ function hit()
     dataType: "json",
     url: atob(domain),
     headers: { Authentication:atob(token) },
-    data: data,
+    //data: data,
     success: s
   });
 }
