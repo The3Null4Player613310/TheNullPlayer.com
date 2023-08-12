@@ -1,13 +1,13 @@
 #footer {
   width: 100%;
-  height: 48px;
+  height: 60px;
   position: fixed;
   bottom: 0px;
   left: 0px;
   right: 0px;
   text-align: center;
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding-top: 6px;
+  padding-bottom: 6px;
   color: white;
   background-color: black;
 }
