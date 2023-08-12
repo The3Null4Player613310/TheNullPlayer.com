@@ -1,0 +1,9 @@
+#counter {
+  display: inline-block;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 6px;
+  padding-right: 6px;
+  color: white;
+  background-color: #646664;
+}
