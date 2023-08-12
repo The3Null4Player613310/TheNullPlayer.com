@@ -11,3 +11,13 @@
   color: white;
   background-color: black;
 }
+
+#footer-policy-privacy {
+  float: right;
+  height: 48px;
+  text-align: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
