@@ -1,6 +1,7 @@
 function rotation_lock()
 {
   screen.orientation.lock("portrait");
+  alert("locked");
 }
 
 function rotation_check()
