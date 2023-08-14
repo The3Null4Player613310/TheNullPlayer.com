@@ -18,6 +18,7 @@ function feed()
   $.ajax({
     dataType: "xml",
     url: URL,
+    headers: { crossorigin:"anonymous" },
     accepts: { xml:"application/rss+xml" },
     success: s
   });
