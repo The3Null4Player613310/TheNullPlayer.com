@@ -1,4 +1,4 @@
-const URL = "http://stackoverflow.com/feeds/user/7305052"
+const URL = "https://stackoverflow.com/feeds/user/7305052"
 
 function feed()
 {
