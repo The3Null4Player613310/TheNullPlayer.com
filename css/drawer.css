@@ -1,9 +1,9 @@
 #nav-drawer {
-  position: absolute;
+  position: fixed;
   top: 0px;
   bottom: 0px;
   left: 0px;
-  background-color: #646664;
+  background-color: #F3F3F3;
 }
 
 .nav-drawer-close {
@@ -15,7 +15,7 @@
 }
 
 #nav-drawer-shim {
-  position: absolute;
+  position: fixed;
   top: 0px;
   bottom: 0px;
   left: 0px;
