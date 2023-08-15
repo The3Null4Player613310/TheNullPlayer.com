@@ -3,6 +3,8 @@
   top: 0px;
   bottom: 0px;
   left: 0px;
+  overflow: hidden;
+  color: #000000;
   background-color: #F3F3F3;
 }
 
