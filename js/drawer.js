@@ -22,6 +22,6 @@ function navDrawerClose()
 
 function drawer()
 {
-  $("#nav-drawer-button").click(navDrawerOpen);
+  $("#header-menu").click(navDrawerOpen); // change to nav-drawer-button
   $("#nav-drawer-shim").click(navDrawerClose);
 }
