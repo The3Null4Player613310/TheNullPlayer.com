@@ -1,0 +1,30 @@
+#nav-drawer {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: #646664;
+}
+
+.nav-drawer-close {
+  width: 0px;
+}
+
+.nav-drawer-open {
+  width: 100px;
+}
+
+#nav-drawer-shim {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+
+.nav-drawer-shim-close {
+  width: 0px;
+}
+
+.nav-drawer-shim-open {
+  width: 100%;
+}
