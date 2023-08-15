@@ -1,10 +1,6 @@
 var isOpen = false;
 
-function drawer()
-{
-}
-
-function open()
+function navDrawerOpen()
 {
   if(isOpen === false)
   {
@@ -14,7 +10,7 @@ function open()
   }
 }
 
-function close()
+function navDrawerClose()
 {
   if(isOpen === true)
   {
@@ -22,4 +18,10 @@ function close()
     $("#nav-drawer-shim").attr("class", "nav-drawer-shim-close");
     isOpen = false;
   }
+}
+
+function drawer()
+{
+  $("#nav-drawer-button").click(navDrawerOpen);
+  $("#nav-drawer-shim").click(navDrawerClose);
 }
