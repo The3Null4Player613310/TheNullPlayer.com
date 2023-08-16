@@ -20,6 +20,7 @@
 
 .card {
   display: inline-block;
+  vertical-align: top;
   height: 214px;
   margin-top: 8px;
   margin-left: 8px;
