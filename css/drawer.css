@@ -24,6 +24,8 @@
   top: 0px;
   bottom: 0px;
   left: 0px;
+  background-color: #000000;
+  opacity: 0.32;
 }
 
 .nav-drawer-shim-close {
