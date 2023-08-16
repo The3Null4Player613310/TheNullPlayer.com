@@ -1,7 +1,18 @@
+@media only screen and (max-width: 400px) {
+  .card {
+    width: calc(100% - 16px - 24px);
+  }
+}
+
+@media only screen and (min-width: 400px) {
+  .card {
+    width: calc(25% - 16px - 24px - 5px);
+    min-width: max(calc(25% - 16px - 24px - 5px), calc(360px - 16px - 24px - 5px));
+    max-width: calc(100% - 16px - 24px);
+  }
+}
+
 .card {
-  width: calc(25% - 16px - 24px - 5px);
-  min-width: max(calc(25% - 16px - 24px - 5px), calc(360px - 16px - 24px - 5px));
-  max-width: calc(100% - 16px - 24px);
   display: inline-block;
   height: 588px;
   margin-top: 8px;
