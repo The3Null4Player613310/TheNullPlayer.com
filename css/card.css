@@ -1,5 +1,8 @@
 .card {
-  width: auto;
+  width: calc(25% - 64px - 96px);
+  min-width: max(calc(25% - 64px - 96px), calc(400px - 16px - 24px));
+  max-width: calc(100% - 16px - 24px);
+  display: inline-block;
   height: 588px;
   margin-top: 8px;
   margin-left: 8px;
