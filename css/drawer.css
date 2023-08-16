@@ -19,6 +19,12 @@
   left: 0px;
 }
 
+#nav-drawer-header {
+  height: 50px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
 #nav-drawer-shim {
   position: fixed;
   top: 0px;
