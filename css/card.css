@@ -1,6 +1,6 @@
 .card {
-  width: calc(25% - 16px - 24px);
-  min-width: max(calc(25% - 16px - 24px), calc(400px - 16px - 24px));
+  width: calc(25% - 16px - 24px - 5px);
+  min-width: max(calc(25% - 16px - 24px - 5px), calc(400px - 16px - 24px - 5px));
   max-width: calc(100% - 16px - 24px);
   display: inline-block;
   height: 588px;
