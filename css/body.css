@@ -5,8 +5,3 @@ body {
   color: white;
   background-color: #464646;
 }
-
-body:has(.lock-scroll) {
-  height: 100%;
-  overflow-y: hidden;
-}
