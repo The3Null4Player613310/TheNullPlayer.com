@@ -9,7 +9,10 @@ function navDrawerOpen()
       $("#nav-drawer").attr("class", "nav-drawer-open");
     });
     $("#nav-drawer-shim").attr("class", "nav-drawer-shim-open");
-    $("#nav-drawer-shim").addClass("lock-scroll");
+    $("html, body").css({
+      overflow: "hidden";
+      height: "100%";
+    });
     isOpen = true;
   }
 }
@@ -22,7 +25,10 @@ function navDrawerClose()
       $("#nav-drawer").attr("class", "nav-drawer-close");
     });
     $("#nav-drawer-shim").attr("class", "nav-drawer-shim-close");
-    $("#nav-drawer-shim").removeClass("lock-scroll");
+    $("html, body").css({
+      overflow: "auto";
+      height: "auto";
+    });
     isOpen = false;
   }
 }
