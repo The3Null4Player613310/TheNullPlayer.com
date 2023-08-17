@@ -21,9 +21,11 @@
 }
 
 #nav-drawer-header {
+  width: parent;
   height: 50px;
   padding-top: 12px;
   padding-bottom: 12px;
+  background-color: black;
 }
 
 #nav-drawer-shim {
