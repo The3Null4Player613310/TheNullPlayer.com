@@ -1,6 +1,6 @@
 #nav-drawer {
   position: fixed;
-  z-index: 100000000 !important
+  z-index: 100000000 !important;
   top: 0px;
   bottom: 0px;
   width: 300px;
