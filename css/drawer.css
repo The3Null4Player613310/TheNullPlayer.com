@@ -29,7 +29,9 @@
 
 #nav-drawer-list {
   width: parent;
+  height: calc(parent - 50px);
   padding: 16px;
+  overflow-y: scroll;
 }
 
 #nav-drawer-shim {
