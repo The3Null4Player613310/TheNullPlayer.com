@@ -9,10 +9,7 @@ function navDrawerOpen()
       $("#nav-drawer").attr("class", "nav-drawer-open");
     });
     $("#nav-drawer-shim").attr("class", "nav-drawer-shim-open");
-    $("html, body").css({
-      overflow: "hidden";
-      height: "100%";
-    });
+    $("html, body").css({ "overflow": "hidden", "height": "100%"});
     isOpen = true;
   }
 }
@@ -25,10 +22,7 @@ function navDrawerClose()
       $("#nav-drawer").attr("class", "nav-drawer-close");
     });
     $("#nav-drawer-shim").attr("class", "nav-drawer-shim-close");
-    $("html, body").css({
-      overflow: "auto";
-      height: "auto";
-    });
+    $("html, body").css({ "overflow":"auto", "height":"auto"});
     isOpen = false;
   }
 }
