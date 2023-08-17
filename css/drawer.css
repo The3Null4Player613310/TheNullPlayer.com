@@ -28,10 +28,11 @@
 }
 
 #nav-drawer-list {
-  width: parent;
-  height: calc(parent - 50px);
+  width: calc(100% - 32px);
+  height: calc(100vh - 50px - 24px);
   padding: 16px;
   overflow-y: scroll;
+  scrollbar-width: thin;
 }
 
 #nav-drawer-shim {
