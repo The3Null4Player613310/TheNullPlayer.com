@@ -4,7 +4,6 @@
   top: 0px;
   bottom: 0px;
   width: 300px;
-  padding: 16px;
   overflow: hidden;
   color: #000000;
   background-color: #F3F3F3;
@@ -26,6 +25,11 @@
   padding-top: 12px;
   padding-bottom: 12px;
   background-color: #000000;
+}
+
+#nav-drawer-list {
+  width: parent;
+  padding: 16px;
 }
 
 #nav-drawer-shim {
