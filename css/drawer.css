@@ -32,7 +32,12 @@
   height: calc(100% - 32px - 50px - 24px);
   padding: 16px;
   overflow-y: scroll;
-  scrollbar-width: thin;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+#nav-drawer-list::-webkit-scrollbar {
+  display: none;
 }
 
 #nav-drawer-shim {
