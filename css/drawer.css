@@ -29,7 +29,7 @@
 
 #nav-drawer-list {
   width: calc(100% - 32px);
-  height: calc(100% - 50px - 24px);
+  height: calc(100% - 32px - 50px - 24px);
   padding: 16px;
   overflow-y: scroll;
   scrollbar-width: thin;
