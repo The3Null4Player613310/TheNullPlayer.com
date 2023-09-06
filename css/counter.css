@@ -1,10 +1,5 @@
 #counter-module {
   display: inline-block;
-  padding-top: 12px;
-  padding-bottom: 12px;
-  padding-left: 12px;
-  padding-right: 12px;
-  border-radius: 24px;
   color: white;
   background-color: #646664;
 }
