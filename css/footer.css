@@ -14,7 +14,7 @@
   background-color: #383838;
 }
 
-#footer-policy-privacy {
+.footer-item {
   float: right;
   margin-top: 6px;
   margin-bottom: 6px;
@@ -28,6 +28,10 @@
   border-radius: 24px;
   color: #F2F2F2;
   background-color: #646664;
+}
+
+#footer-policy-privacy {
+  
 }
 
 #footer-policy-privacy-text {
