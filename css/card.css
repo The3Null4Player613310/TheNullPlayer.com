@@ -18,7 +18,7 @@
 
 @media only screen and (min-width: 927px) {
   .card {
-    width: calc(33% - 16px - 24px);// - 10px);
+    width: calc(33% - 16px - 24px);
   }
 }
 
