@@ -36,6 +36,11 @@
   text-decoration: none;
 }
 
+.footer-spacer {
+  width: 24px;
+  height: 18px;
+}
+
 #footer-policy-privacy {
   
 }
