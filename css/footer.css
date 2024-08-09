@@ -4,7 +4,7 @@
   bottom: 0px;
   left: 0px;
   right: 0px;
-  text-align: center;
+  text-align: right; // center;
   padding-top: 16px;
   padding-bottom: 16px;
   padding-left: 0px;
@@ -15,7 +15,7 @@
 }
 
 .footer-item {
-  //float: right;
+  // float: right;
   width: auto;
   height: 18px;
   margin-top: 0px;
