@@ -1,4 +1,7 @@
 #counter-module {
+  line-height: 1;
+  font-size: 18px;
+  text-decoration: none;
   display: inline-block;
   color: white;
   background-color: #646664;
