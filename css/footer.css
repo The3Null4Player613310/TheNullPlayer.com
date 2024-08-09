@@ -16,6 +16,8 @@
 
 .footer-item {
   //float: right;
+  width: auto;
+  height: 18px;
   margin-top: 0px;
   margin-bottom: 0px;
   margin-left: 0px;
