@@ -1,6 +1,6 @@
 #footer {
   width: 100%;
-  height: 46px;
+  height: 48px;
   bottom: 0px;
   left: 0px;
   right: 0px;
@@ -27,8 +27,8 @@
   // float: right;
   width: auto;
   height: 18px;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin-top: 1px;
+  margin-bottom: 1px;
   margin-left: 0px;
   margin-right: 0px;
   text-align: center;
