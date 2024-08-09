@@ -39,6 +39,7 @@
 .footer-spacer {
   width: 24px;
   height: 18px;
+  display: inline-block;
 }
 
 #footer-policy-privacy {
