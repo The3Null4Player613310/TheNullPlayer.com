@@ -1,3 +1,11 @@
+/*
+################################################################
+#TheNullPlayer: counter.js
+#Copyright © 2024 Allison Munn
+#FULL COPYRIGHT NOTICE IS IN README
+################################################################
+*/
+
 const token="andDcmxuUFFOWW4xeVFTU1pCZE5ybVZtYVNWYnZzTU0=";
 const domain="aHR0cHM6Ly9hcGkuYmFzZXJvdy5pby9hcGkv";
 const t_id="187609";
