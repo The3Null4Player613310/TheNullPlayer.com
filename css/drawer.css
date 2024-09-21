@@ -1,3 +1,11 @@
+/*
+################################################################
+#TheNullPlayer: drawer.css
+#Copyright © 2024 Allison Munn
+#FULL COPYRIGHT NOTICE IS IN README
+################################################################
+*/
+
 #nav-drawer {
   position: fixed;
   z-index: 100000000 !important;
