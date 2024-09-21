@@ -3,7 +3,7 @@ TheNullPlayer
 
 ### COPYRIGHT NOTICE:
 
-DNT:  
+TheNullPlayer:  
 Copyright © 2024  Allison Munn
 
 This program is free software; you can redistribute it and/or modify  
