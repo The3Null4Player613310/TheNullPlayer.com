@@ -15,6 +15,6 @@
   ],
   "start_url": "/app.html",
   "display": "standalone",
-  "theme_color": "#5E5E5E",
+  "theme_color": "#464646",
   "background_color": "#000000"
 }
