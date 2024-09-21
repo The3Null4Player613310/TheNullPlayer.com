@@ -1,3 +1,11 @@
+/*
+################################################################
+#TheNullPlayer: drawer.js
+#Copyright © 2024 Allison Munn
+#FULL COPYRIGHT NOTICE IS IN README
+################################################################
+*/
+
 var isOpen = false;
 var dTime = 400;
 
