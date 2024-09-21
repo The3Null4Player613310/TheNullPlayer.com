@@ -1,0 +1,20 @@
+{
+  "short_name": "TheNullPlayer",
+  "name": "The Null Player",
+  "icons": [
+    {
+      "src": "/img/favicon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/favicon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/app.html",
+  "display": "standalone",
+  "theme_color": "#5E5E5E",
+  "background_color": "#000000"
+}
