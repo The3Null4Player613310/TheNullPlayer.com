@@ -8,25 +8,25 @@
 
 @media only screen and (max-width: 428px) and (min-width: 214px){
   .card {
-    width: calc(100% - 16px - 24px);
+    width: calc(99% - 16px - 24px);
   }
 }
 
 @media only screen and (max-width: 444px) and (min-width: 429px){
   .card {
-    width: calc(100% - 16px - 24px);
+    width: calc(99% - 16px - 24px);
   }
 }
 
 @media only screen and (max-width: 926px) and (min-width: 445px){
   .card {
-    width: calc(50% - 16px - 24px - 10px);
+    width: calc(49% - 16px - 24px);
   }
 }
 
 @media only screen and (min-width: 927px) {
   .card {
-    width: calc(33% - 16px - 24px);
+    width: calc(32% - 16px - 24px);
   }
 }
 
