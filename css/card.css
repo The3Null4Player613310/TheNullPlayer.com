@@ -1,3 +1,11 @@
+/*
+################################################################
+#TheNullPlayer: card.css
+#Copyright © 2024 Allison Munn
+#FULL COPYRIGHT NOTICE IS IN README
+################################################################
+*/
+
 @media only screen and (max-width: 428px) and (min-width: 214px){
   .card {
     width: calc(100% - 16px - 24px);
