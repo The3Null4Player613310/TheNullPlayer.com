@@ -36,5 +36,5 @@ function onPlayerReady(event)
 
 function player()
 {
-  stream.playVideo();
+  //stream.playVideo();
 }
