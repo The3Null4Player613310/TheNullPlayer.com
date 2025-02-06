@@ -14,8 +14,8 @@ function onYouTubeIframeAPIReady()
 {
   stream = new YT.Player('stream',
   {
-    height: '390',
-    width: '640',
+    height: '768',
+    width: '1024',
     videoId: ID,
     playerVars:
     {
