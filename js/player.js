@@ -34,6 +34,11 @@ function onPlayerReady(event)
   event.target.playVideo();
 }
 
+function onPlayerStateChange(event)
+{
+
+}
+
 function player()
 {
   //stream.playVideo();
