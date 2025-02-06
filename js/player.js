@@ -28,13 +28,12 @@ function onYouTubeIframeAPIReady()
       'onStateChange': onPlayerStateChange
     }
   });
-  
-  stream.loadVideoByUrl(URL, 0);
 }
 
 function onPlayerReady(event)
 {
   event.target.playVideo();
+  event.target.loadVideoByUrl(URL, 0);
 }
 
 function onPlayerStateChange(event)
