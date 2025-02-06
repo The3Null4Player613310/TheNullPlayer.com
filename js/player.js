@@ -6,7 +6,7 @@
 ################################################################
 */
 
-const ID = 'M7lc1UVf-VE'
+const ID = ''
 const URL = 'https://www.youtube.com/@TheNullPlayer/live'
 
 var stream;
