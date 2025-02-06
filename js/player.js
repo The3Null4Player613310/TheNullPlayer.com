@@ -7,6 +7,7 @@
 */
 
 const ID = 'M7lc1UVf-VE'
+const URL = 'https://www.youtube.com/@TheNullPlayer/live'
 
 var stream;
 
@@ -27,6 +28,8 @@ function onYouTubeIframeAPIReady()
       'onStateChange': onPlayerStateChange
     }
   });
+  
+  stream.loadVideoByUrl(URL, 0);
 }
 
 function onPlayerReady(event)
