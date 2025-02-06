@@ -6,6 +6,8 @@
 ################################################################
 */
 
+const ID = 'M7lc1UVf-VE'
+
 function player()
 {
     var stream;
@@ -13,7 +15,7 @@ function player()
         stream = new YT.Player('player', {
           height: '390',
           width: '640',
-          videoId: 'M7lc1UVf-VE',
+          videoId: ID,
           playerVars: {
             'playsinline': 1
           },
