@@ -1,0 +1,16 @@
+/*
+################################################################
+#TheNullPlayer: iframe.css
+#Copyright © 2024 Allison Munn
+#FULL COPYRIGHT NOTICE IS IN README
+################################################################
+*/
+
+body {
+  padding: 0px;
+  margin: 0px;
+  margin-top: 0px;
+  width: 100%;
+  color: white;
+  background-color: #464646;
+}
