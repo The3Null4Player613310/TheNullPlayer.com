@@ -12,7 +12,7 @@ function player()
 {
     var stream;
       function onYouTubeIframeAPIReady() {
-        stream = new YT.Player('player', {
+        stream = new YT.Player('stream', {
           height: '390',
           width: '640',
           videoId: ID,
