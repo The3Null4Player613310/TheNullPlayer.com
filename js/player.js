@@ -8,26 +8,33 @@
 
 const ID = 'M7lc1UVf-VE'
 
+var stream;
+
+function onYouTubeIframeAPIReady()
+{
+  stream = new YT.Player('stream',
+  {
+    height: '390',
+    width: '640',
+    videoId: ID,
+    playerVars:
+    {
+      'playsinline': 1
+    },
+    events:
+    {
+      'onReady': onPlayerReady,
+      'onStateChange': onPlayerStateChange
+    }
+  });
+}
+
+function onPlayerReady(event)
+{
+  event.target.playVideo();
+}
+
 function player()
 {
-    var stream;
-      function onYouTubeIframeAPIReady() {
-        stream = new YT.Player('stream', {
-          height: '390',
-          width: '640',
-          videoId: ID,
-          playerVars: {
-            'playsinline': 1
-          },
-          events: {
-            'onReady': onPlayerReady,
-            'onStateChange': onPlayerStateChange
-          }
-        });
-      }
-
-      // 4. The API will call this function when the video player is ready.
-      function onPlayerReady(event) {
-        event.target.playVideo();
-      }
+  player.playVideo();
 }
