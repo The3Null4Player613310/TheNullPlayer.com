@@ -6,17 +6,19 @@
 ################################################################
 */
 
-async function countDown()
+async function countDown(tIn)
 {
+  var t = Number(tIn);
+  var timer = document.getElementById('timer');
   
   function d(tIn)
   {
-    var tn = Number(tIn)-1;
+    var t = Number(tIn)-1;
     function s(cbIn)
     {
       function td()
       {
-        cbIn(tn);
+        cbIn(t);
       }
         
       setTimeout(td, 1000);
@@ -24,9 +26,6 @@ async function countDown()
       
     return new Promise(s);
   }
-
-  var t = Number("15");
-  var timer = document.getElementById('timer');
   
   while(t != 0)
   {
@@ -35,7 +34,8 @@ async function countDown()
   }
 }
 
-function timer()
+function timer(countIn)
 {
-  countDown();
+  var t = Number(countIn);
+  countDown(t);
 }
