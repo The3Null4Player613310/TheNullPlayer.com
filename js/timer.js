@@ -3,11 +3,12 @@ async function countDown()
   
   function d(tIn)
   {
+    var tn = Number(tIn)-1;
     function s(cbIn)
     {
       function td()
       {
-        cbIn(Number(tIn)-1);
+        cbIn(tn);
       }
         
       setTimeout(td, 1000);
@@ -15,7 +16,6 @@ async function countDown()
       
     return new Promise(s);
   }
-
 
   var t = Number("15");
   var timer = document.getElementById('timer');
