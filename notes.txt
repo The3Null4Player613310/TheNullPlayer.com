@@ -1,0 +1,4 @@
+Notes
+
+//add to bottom of body to add yotube iframe api
+<script src="https://www.youtube.com/iframe_api"></script>
