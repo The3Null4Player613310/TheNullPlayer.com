@@ -29,8 +29,8 @@ async function countDown(tIn)
   
   while(t != 0)
   {
-    t = Number(await d(t));
     timer.innerHTML = t;
+    t = Number(await d(t));
   }
 }
 
