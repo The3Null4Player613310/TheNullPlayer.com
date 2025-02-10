@@ -32,6 +32,7 @@ async function countDown(tIn)
     timer.innerHTML = t;
     t = Number(await d(t));
   }
+  timer.innerHTML = t;
 }
 
 function timer(countIn)
