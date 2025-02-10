@@ -9,3 +9,9 @@ Notes
 
 //add to bottom of body to add yotube iframe api
 <script src="https://www.youtube.com/iframe_api"></script>
+
+//old iframe code
+<!--
+<iframe width="99%" height="74%" src="https://youtube.com/@TheNullPlayer/live">
+</iframe>
+-->
