@@ -41,10 +41,12 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
     <script src="/js/drawer.js"></script>
+    <script src="/js/timer.js"></script>
     <script>
       $(document).ready( function()
       {
         drawer();
+        timer(15);
       });
     </script>
   </head>
@@ -60,9 +62,15 @@
     <br>
     <div id="content">
       <div class="card">
-        PLEASE STAND BY <b id="timer"></b>
+        <h2>
+          PLEASE STAND BY 
+          <span id="timer">
+          </span>
+        </h2>
         <noscript>
-          PLEASE CLICK <a>HERE</a> TO CONTINUE TO LIVE STREAM
+          PLEASE CLICK 
+          <a>HERE</a> 
+          TO CONTINUE TO LIVE STREAM
         </noscript>
       </div>
       <div class="card">
@@ -96,6 +104,5 @@
     </div>
     <div id="footer">
     </div>
-    <script src="https://www.youtube.com/iframe_api"></script>
   </body>
 </html>
