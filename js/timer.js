@@ -1,3 +1,11 @@
+/*
+################################################################
+#TheNullPlayer: timer.js
+#Copyright © 2025 Allison Munn
+#FULL COPYRIGHT NOTICE IS IN README
+################################################################
+*/
+
 async function countDown()
 {
   
