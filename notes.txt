@@ -1,5 +1,8 @@
 Notes
 
+//add to bottom of head above last script tag
+<script src="/js/player.js"></script>
+
 //add to content to add player at that location
 <div id="stream">
 </div>
