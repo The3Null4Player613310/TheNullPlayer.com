@@ -11,28 +11,26 @@ async function countDown(tIn)
   var t = Number(tIn);
   var timer = document.getElementById('timer');
   
-  function d(tIn)
+  function tick()
   {
-    var t = Number(tIn)-1;
-    function s(cbIn)
+    function e(rIn)
     {
-      function td()
+      function d()
       {
-        cbIn(t);
       }
         
-      setTimeout(td, 1000);
+      setTimeout(d, 1000);
     }
       
-    return new Promise(s);
+    return new Promise(e);
   }
   
-  while(t != 0)
+  for(var t=tIn; t>0; t--)
   {
     timer.innerHTML = t;
-    t = Number(await d(t));
+    await tick(t);
   }
-  timer.innerHTML = t;
+  timer.innerHTML = 0;
 }
 
 function timer(countIn)
