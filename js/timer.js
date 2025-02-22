@@ -33,8 +33,8 @@ async function countDown(tIn)
   timer.innerHTML = 0;
 }
 
-function timer(countIn)
+function timer(tIn)
 {
-  var t = Number(countIn);
+  var t = Number(tIn);
   countDown(t);
 }
