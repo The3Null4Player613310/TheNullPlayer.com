@@ -25,9 +25,9 @@ async function countDown(tIn)
     return new Promise(e);
   }
   
-  for(var t=tIn; t>0; t--)
+  for(var n=t; n>0; n--)
   {
-    timer.innerHTML = t;
+    timer.innerHTML = n;
     await tick();
   }
   timer.innerHTML = 0;
