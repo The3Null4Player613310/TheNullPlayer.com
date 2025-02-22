@@ -25,6 +25,8 @@ async function countDown(tIn)
     return new Promise(e);
   }
   
+  timer.innerHTML = 60;
+  
   for(var n=t; n>0; n--)
   {
     timer.innerHTML = n;
