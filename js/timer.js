@@ -17,6 +17,7 @@ async function countDown(tIn)
     {
       function d()
       {
+        rIn();
       }
         
       setTimeout(d, 1000);
