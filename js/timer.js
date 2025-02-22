@@ -28,7 +28,7 @@ async function countDown(tIn)
   for(var t=tIn; t>0; t--)
   {
     timer.innerHTML = t;
-    await tick(t);
+    await tick();
   }
   timer.innerHTML = 0;
 }
