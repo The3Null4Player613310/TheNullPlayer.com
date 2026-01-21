@@ -64,14 +64,16 @@
   margin-top: 8px;
   margin-left: 8px;
   margin-right: 8px;
+  font-size: 24pt;
 }
 
 .card-title-sub
 {
-  height: 24px;
+  height: 12px;
   margin-top: 8px;
   margin-left: 8px;
   margin-right: 8px;
+  font-size: 8pt;
 }
 
 .content
@@ -80,4 +82,6 @@
   margin-top: 8px;
   margin-left: 8px;
   margin-right: 8px;
+  font-size: 12pt;
+
 }
