@@ -6,31 +6,40 @@
 ################################################################
 */
 
-@media only screen and (max-width: 428px) and (min-width: 214px){
-  .card {
+@media only screen and (max-width: 428px) and (min-width: 214px)
+{
+  .card
+  {
     width: calc(99.00% - 16px - 24px);
   }
 }
 
-@media only screen and (max-width: 444px) and (min-width: 429px){
-  .card {
+@media only screen and (max-width: 444px) and (min-width: 429px)
+{
+  .card
+  {
     width: calc(99.00% - 16px - 24px);
   }
 }
 
-@media only screen and (max-width: 926px) and (min-width: 445px){
-  .card {
+@media only screen and (max-width: 926px) and (min-width: 445px)
+{
+  .card
+  {
     width: calc(49.50% - 16px - 24px);
   }
 }
 
-@media only screen and (min-width: 927px) {
-  .card {
+@media only screen and (min-width: 927px)
+{
+  .card
+  {
     width: calc(32.99% - 16px - 24px);
   }
 }
 
-.card {
+.card
+{
   display: inline-block;
   vertical-align: top;
   height: 214px;
@@ -40,4 +49,35 @@
   border-radius: 24px;
   padding: 12px;
   background-color: #646664;
+}
+
+.card-width-medium
+{
+  width: 67%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-title
+{
+  height: 24px;
+  margin-top: 8px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.card-title-sub
+{
+  height: 24px;
+  margin-top: 8px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.content
+{
+  height: 54px;
+  margin-top: 8px;
+  margin-left: 8px;
+  margin-right: 8px;
 }
