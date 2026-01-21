@@ -40,7 +40,7 @@
 
 .card
 {
-  display: inline-block;
+  display: block;
   vertical-align: top;
   height: 214px;
   margin-top: 8px;
